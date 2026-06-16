@@ -11,9 +11,9 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  # Prevent GitHub runner from injecting broken JVM flags
-  JAVA_TOOL_OPTIONS: "-Xmx2g -Xms512m"
-  GRADLE_OPTS: "-Xmx2g -Dorg.gradle.jvmargs='-Xmx2g -Xms512m'"
+  # Clean JVM flags — NO quotes, NO apostrophes
+  JAVA_TOOL_OPTIONS: -Xmx2g -Xms512m
+  GRADLE_OPTS: -Xmx2g -Dorg.gradle.jvmargs=-Xmx2g -Xms512m
 
 jobs:
   build:
