@@ -315,11 +315,6 @@ Users are responsible for complying with applicable laws and terms of service wh
 
 ---
 
-## How the APK is compiled
-The APK was compiled using Gradle
-
----
-
 ## License
 
 ```
