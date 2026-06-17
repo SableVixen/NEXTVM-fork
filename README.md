@@ -214,7 +214,7 @@ NEXTVM/
 
 ### How to install NEXTVM
 
-Go to Actions, click on the latest workflow run, click on debug-apk.
+Click on debug-apk.zip, click on download raw file, extract the zip file, and run the .apk file.
 
 > **Note:** The project is in active alpha development. Some modules may have compilation issues that are being actively resolved.
 
