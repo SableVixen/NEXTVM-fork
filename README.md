@@ -212,9 +212,9 @@ NEXTVM/
 - NDK 27.1.12297006
 - CMake (for native hook module)
 
-### How to install NEXTVM?
+### How do you install NEXTVM?
 
-Go to Actions, click on Build & Linting, click on debug-apk.
+Go to Actions, click on the latest action, click on debug-apk.
 
 > **Note:** The project is in active alpha development. Some modules may have compilation issues that are being actively resolved.
 
